@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+#main-container {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px 10px;
+  /* height:40rem; */
+  /* margin-top:2rem; */
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+}
+#sub-container {
+  gap: 1.4rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  color: rgb(92, 92, 92);
+  font-weight: 500;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+input {
+  height: 2.2rem;
+  /* border-radius:5px; */
+  border: 2px solid rgb(223, 223, 223);
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+input:focus{
+    background-color: rgb(244, 242, 242);
+    outline:none
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+#termsConditions {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+span {
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #2464eb;
+  border: 1px solid #2464eb;
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+}
+
+lable{
+  color:red;
+  font-size: small;
+}
